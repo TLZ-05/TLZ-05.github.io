@@ -34,24 +34,45 @@
             margin-right:50px;
             min-width:px;
             height:40px;
-
+            background-color:lavender;
+            border:none;
+            border-radius:10px;
+            text-decoration:none;
+            color:black;
+            align-content:center;
+            box-shadow:5px 5px rgba(0,0,0,0.5);
+            cursor:pointer;
+            transition:50ms;
         }
 
-        
+        .navbar-button:hover{
+            margin-bottom:4px;
+            box-shadow:5px 7px rgba(0,0,0,0.5);
+        }
+
+        .navbar-button:active{
+            box-shadow:none;
+            margin-bottom:-7px;
+            margin-right:45px;
+            margin-left:5px;
+        }
+
+        .navbar-button .page-link{
+            width:100%;
+            height:100%;
+        }
     </style>
 </head>
 
 <body>
     <header class="header">
         <div class="website-title">
-            <a class="page-link" href="index.html">My Personal Website</a>
+            <a title="back to main page" class="page-link" href="index.html">My Personal Website</a>
         </div>
 
-        <button class="navbar-button">
-            <a class="page-link" href="skills_and_experience.html">
+        <a class="navbar-button" href="skills_and_experience.html">
                 Skills and Experience
-            </a>
-        </button>
+        </a>
 
         <button class="navbar-button">
             <a class="page-link" href="personal_interests.html">
@@ -65,5 +86,6 @@
             </a>
         </button>
     </header>
+    
 </body>
 </html>
