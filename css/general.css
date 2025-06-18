@@ -3,3 +3,11 @@ body{
   margin:0;
   background-color:#C4B2D1
 }
+
+.page-link{
+    text-decoration:none;
+    color:inherit;
+    margin:0;
+    padding:0;
+    background-color:inherit;
+}
