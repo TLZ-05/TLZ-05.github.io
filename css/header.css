@@ -1,0 +1,56 @@
+.header{
+    background-color:#9803FC;
+    height:80px;
+    display:flex;
+    align-items:center;
+}
+
+.website-title{
+    margin-left:30px;
+    margin-right:450px;
+    font-style:italic;
+    text-decoration:none;
+    font-size:40px;
+    font-weight:700;
+    min-width:370px;
+    text-align:center;
+    color:#FCC603;
+}
+
+.navbar-button{
+    margin-right:50px;
+    min-width:px;
+    height:40px;
+    background-color:lavender;
+    border:none;
+    border-radius:10px;
+    text-decoration:none;
+    align-content:center;
+    box-shadow:5px 5px rgba(0,0,0,0.5);
+    cursor:pointer;
+    transition:50ms;
+    background-color:purple;
+    color:#FCC603;
+    font-size:14px;
+    padding-left:10px;
+    padding-right:10px;
+    font-weight:500;
+    border:1px solid gold;
+}
+
+.navbar-button:hover{
+    margin-bottom:4px;
+    box-shadow:5px 7px rgba(0,0,0,0.5);
+}
+
+.navbar-button:active{
+    box-shadow:none;
+    margin-bottom:-7px;
+    margin-right:45px;
+    margin-left:5px;
+}
+
+.navbar-button .page-link{
+    width:100%;
+    height:100%;
+}
