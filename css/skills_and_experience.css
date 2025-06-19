@@ -1,12 +1,11 @@
-.main-page-body{
+.skills-n-exp-page-body{
   display:grid;
   grid-template-columns:450px 450px;
   height:550px;
-  margin-bottom:1000px;
   justify-content:space-around;
 }
 
-.main-page-section-header{
+.skills-n-exp-page-section-header{
   text-align:center;
   font-weight:900;
   font-size:26px;
@@ -14,7 +13,7 @@
   margin-bottom:12px;
 }
 
-.main-page-section-body{		
+.skills-n-exp-page-section-body{		
   border:1px solid black;
   border-radius:20px;
   padding:10px;
