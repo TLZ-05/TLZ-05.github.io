@@ -16,6 +16,7 @@
     text-align:center;
     color:gold;
     transition:100ms;
+    white-space:nowrap;
 }
 
 .website-title:hover{
@@ -26,7 +27,6 @@
 .navbar-button{
     margin-right:50px;
     height:40px;
-    background-color:lavender;
     border:none;
     border-radius:10px;
     text-decoration:none;
@@ -41,6 +41,7 @@
     padding-right:10px;
     font-weight:500;
     border:1px solid gold;
+    white-space:nowrap;
 }
 
 .navbar-button:hover{

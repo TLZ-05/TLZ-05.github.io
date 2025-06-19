@@ -11,7 +11,38 @@
 
   <link rel="stylesheet" href="../css/general.css">
   <link rel="stylesheet" href="../css/header.css">
+
+  <style>
+  .main-page-body{
+    display:grid;
+    grid-template-columns:450px 450px;
+    height:550px;
+    margin-bottom:1000px;
+    justify-content:space-around;
+  }
+
+  .main-page-section-header{
+    text-align:center;
+    font-weight:900;
+    font-size:26px;
+    margin-top:20px;
+    margin-bottom:12px;
+  }
+
+  .main-page-section-body{		
+    border:1px solid black;
+    border-radius:20px;
+    padding:10px;
+    font-weight:500;
+    font-size:20px;
+    height:450px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+  }
+	</style>
 </head>
+
 <body>
   <header class="header">
       <a title="back to main page" class="website-title" href="../index.html">My Personal Website</a>
@@ -28,6 +59,33 @@
           Links and Socials
       </a>
   </header>
+
+  <main class="main-page-body">
+		<div class="main-page-text-section">
+			<p class="main-page-section-header">
+				Programming Skills
+			</p>
+
+			<div class="main-page-section-body">
+				<p>&#8226 Python</p>
+				<p>&#8226 C</p>
+				<p>&#8226 C++</p>
+				<p>&#8226 HTML</p>
+				<p>&#8226 CSS</p>
+				<p>&#8226 JavaScript</p>
+			</div>
+		</div>
+
+		<div class="main-page-text-section">
+			<p class="main-page-section-header">
+				Completed Courses
+			</p>
+
+			<p class="main-page-section-body">
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam dolorum eos repellat voluptate magnam, iste vero facilis sit temporibus explicabo consequatur velit distinctio error tenetur aspernatur expedita laborum eveniet. Delectus.
+			</p>
+		</div>
+	</main>
   
 </body>
 </html>
