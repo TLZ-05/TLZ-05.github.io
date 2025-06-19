@@ -11,6 +11,64 @@
 
 	<link rel="stylesheet" href="css/general.css">
 	<link rel="stylesheet" href="css/header.css">
+
+	<style>
+		.landing-page-body{
+			display:grid;
+			grid-template-columns: 500px 800px;
+			height:550px;
+			margin-bottom:1000px;
+			margin-top:20px;	
+		}
+
+		.self-portrait{
+			width:200px;
+			height:280px;
+			alt:"portrait of me in a forest wearing headphones and a face-mask";
+			margin-left:140px;
+		}
+
+		.landing-page-body-left-section{
+			margin-left:40px;
+		}
+
+		.landing-page-body-right-section{
+			margin-left:100px;
+			display:grid;
+			grid-template-rows:270px 270px;
+		}
+
+		.about-me{
+			font-weight:600;
+			font-size:30px;
+			text-decoration:underline;
+			font-style:italic;
+			text-align:center;
+		}
+
+		.about-me-content{
+			font-size:20px;
+		}
+
+		.landing-page-body-right-section-half-header{
+			font-weight:700;
+			font-size:28px;
+			background-color:#9803FC;
+			color:gold;
+			padding:8px;
+			border-radius:20px;
+			margin-bottom:10px;
+		}
+
+		.landing-page-body-right-section-half-content{
+			font-size:20px;
+			padding:8px;
+			border:1px solid black;
+			border-radius:20px;
+			height:180px;
+		}
+		
+	</style>
 	
 </head>
 
@@ -30,6 +88,38 @@
 			Links and Socials
 		</a>
 	</header>
+
+	<main class="landing-page-body">
+		<div class="landing-page-body-left-section">
+			<img class="self-portrait" src="images/portrait.jpg">
+			<p class="about-me">About me</p>
+			<p class="about-me-content">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed numquam sequi nisi perferendis odit ullam natus repellendus, nemo, laudantium perspiciatis in? Neque sit exercitationem consequatur ipsa dolor! Earum, autem corrupti!
+			</p>
+		</div>
+
+		<div class="landing-page-body-right-section">
+			<div>
+				<p class="landing-page-body-right-section-half-header">
+					Current Projects
+				</p>
+
+				<p class="landing-page-body-right-section-half-content">
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, blanditiis? Facere cum iusto quam eius. Laborum culpa consequuntur officiis id, vitae beatae, dignissimos aliquid fuga explicabo architecto, laboriosam saepe aspernatur.
+				</p>
+			</div>
+
+			<div>
+				<p class="landing-page-body-right-section-half-header">
+					Past Projects
+				</p>
+
+				<p class="landing-page-body-right-section-half-content">
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, blanditiis? Facere cum iusto quam eius. Laborum culpa consequuntur officiis id, vitae beatae, dignissimos aliquid fuga explicabo architecto, laboriosam saepe aspernatur.
+				</p>
+			</div>
+		</div>
+	</main>
 
 </body>
 </html>
